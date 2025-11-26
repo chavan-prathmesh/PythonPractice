@@ -1,0 +1,19 @@
+# Q2. (Loops) 
+# Write a Java program to print the following pattern using nested loops: 
+# 1 
+# 1 2 
+# 1 2 3 
+# 1 2 3 4 
+# 1 2 3 4 5 
+# Also, print the reverse pattern after it. 
+
+for i in range(1,6):
+    for j in range(1,i+1):
+        print(j ,end=" ")
+    print("\n")
+
+print("Reverse Order ")
+for i in range(5,0,-1):
+    for j in range(1,i+1):
+        print(j,end=" ")
+    print("\n")
